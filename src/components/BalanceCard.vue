@@ -23,13 +23,14 @@ onMounted(() => {
     </div>
     <div class="w-100 start-0 position-absolute px-3" style="bottom: -2rem">
       <div
-        class="bg-light w-100 rounded p-3 shadow d-flex justify-content-center gap-3">
+        class="bg-light w-100 rounded p-3 shadow d-flex justify-content-center">
         <button
           class="btn btn-sm btn-success w-100 d-flex align-items-center justify-content-center gap-2"
           data-bs-toggle="modal"
           data-bs-target="#top-up-modal">
           <i class="bi bi-plus-circle-fill fs-5"></i> Top up
         </button>
+        <div class="mx-2"></div>
         <button
           class="btn btn-sm btn-danger w-100 d-flex align-items-center justify-content-center gap-2"
           data-bs-toggle="modal"

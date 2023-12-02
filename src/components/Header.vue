@@ -17,7 +17,7 @@ onMounted(() => {
     <div class="py-3 d-flex align-items-center justify-content-between">
       <div class="d-flex align-items-center gap-2">
         <i class="bi bi-person-circle text-primary" style="font-size: 2rem"></i>
-        <div>
+        <div class="ms-1">
           <span class="d-block text-primary" style="font-size: 0.8rem">{{
             user?.name
           }}</span>
