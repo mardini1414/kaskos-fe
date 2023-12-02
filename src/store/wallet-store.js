@@ -110,7 +110,7 @@ const walletStore = defineStore('wallet', () => {
       data.value = [...data.value, ...res.data?.data?.content];
       isLastPage.value = res.data?.data?.last;
     } catch (e) {
-      status.value = e.response.status;
+      status.value = e.response?.status;
       errors.value = e.response.data.errors;
       isLastPage.value = true;
     } finally {
