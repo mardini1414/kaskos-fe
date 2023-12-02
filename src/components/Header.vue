@@ -21,7 +21,7 @@ onMounted(() => {
           <span class="d-block text-primary" style="font-size: 0.8rem">{{
             user?.name
           }}</span>
-          <small class="d-block text-muted" style="font-size: 0.6rem">{{
+          <small class="d-block text-muted" style="font-size: 0.7rem">{{
             user?.email
           }}</small>
         </div>
