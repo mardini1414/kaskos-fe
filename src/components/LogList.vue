@@ -51,7 +51,7 @@ onMounted(() => {
         v-for="history in data">
         <div>
           <span class="d-block mb-1">{{ history.name }}</span>
-          <small class="d-block text-muted" style="font-size: 0.6rem">{{
+          <small class="d-block text-muted" style="font-size: 0.7rem">{{
             history.email
           }}</small>
         </div>
@@ -64,7 +64,7 @@ onMounted(() => {
           </span>
           <small
             class="d-block text-end text-muted"
-            style="font-size: 0.6rem"
+            style="font-size: 0.7rem"
             >{{ formatDate(history.createdAt) }}</small
           >
         </div>

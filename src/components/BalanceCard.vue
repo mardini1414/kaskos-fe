@@ -28,14 +28,14 @@ onMounted(() => {
           class="btn btn-sm btn-success w-100 d-flex align-items-center justify-content-center gap-2"
           data-bs-toggle="modal"
           data-bs-target="#top-up-modal">
-          <i class="bi bi-plus-circle-fill fs-5"></i> Top up
+          <i class="bi bi-plus-circle-fill fs-5 me-2"></i> Top up
         </button>
         <div class="mx-2"></div>
         <button
           class="btn btn-sm btn-danger w-100 d-flex align-items-center justify-content-center gap-2"
           data-bs-toggle="modal"
           data-bs-target="#cash-out-modal">
-          <i class="bi bi-dash-circle-fill fs-5"></i>
+          <i class="bi bi-dash-circle-fill fs-5 me-2"></i>
           Cash out
         </button>
       </div>
