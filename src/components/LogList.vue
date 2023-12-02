@@ -50,21 +50,21 @@ onMounted(() => {
         class="list-group-item d-flex justify-content-between align-items-center"
         v-for="history in data">
         <div>
-          <span class="d-block">{{ history.name }}</span>
-          <small class="d-block text-muted" style="font-size: 0.8rem">{{
+          <span class="d-block mb-1">{{ history.name }}</span>
+          <small class="d-block text-muted" style="font-size: 0.6rem">{{
             history.email
           }}</small>
         </div>
         <div>
           <span
-            :class="`d-block text-end ${
+            :class="`d-block text-end mb-1 ${
               history.type === 'TOP_UP' ? 'text-success' : 'text-danger'
             }`">
             {{ history.type === 'TOP_UP' ? '+' : '-' }} {{ history.nominal }}
           </span>
           <small
             class="d-block text-end text-muted"
-            style="font-size: 0.8rem"
+            style="font-size: 0.6rem"
             >{{ formatDate(history.createdAt) }}</small
           >
         </div>

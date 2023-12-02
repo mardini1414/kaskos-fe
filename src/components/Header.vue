@@ -17,7 +17,7 @@ onMounted(() => {
     <div class="py-3 d-flex align-items-center justify-content-between">
       <div class="d-flex align-items-center gap-2">
         <i class="bi bi-person-circle text-primary" style="font-size: 2rem"></i>
-        <div class="ms-1">
+        <div class="ms-2">
           <span class="d-block text-primary" style="font-size: 0.8rem">{{
             user?.name
           }}</span>
@@ -37,14 +37,14 @@ onMounted(() => {
             style="cursor: pointer"
             @click="router.push('/members')">
             <i class="bi bi-people-fill" style="font-size: 1.5rem"></i>
-            <span>Members</span>
+            <span class="ms-2">Members</span>
           </li>
           <li
             class="text-danger d-flex align-items-center gap-2"
             style="cursor: pointer"
             @click="store.logout()">
             <i class="bi bi-power" style="font-size: 1.5rem"></i>
-            <span>Logout</span>
+            <span class="ms-2">Logout</span>
           </li>
         </ul>
       </div>
